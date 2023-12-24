@@ -1,7 +1,7 @@
 import Card from "../card/Card.component";
 import './card-list.styles.css'
 
-function CardList(props) {
+const CardList = (props) => {
     return (
         <div className="card-list">
             {props.monsters.map((monster) => {

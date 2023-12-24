@@ -1,6 +1,6 @@
 import './Card.styles.css'
 
-function Card({monster}) {
+const Card = ({monster}) => {
 
         return (
             <div className="card-container" >
